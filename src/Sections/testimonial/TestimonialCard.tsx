@@ -22,7 +22,9 @@ function TestimonialCard(props: TestimonialCardProps) {
         <h2 className="card-title font-headliner text-2xl tracking-widest text-emas">
           {props.name}
         </h2>
-
+        <span className="rounded-full border border-white/20 px-2 py-1 text-[10px] font-semibold uppercase tracking-[2px] text-white text-center">
+          Demo
+        </span>
         <h3 className="text-sm italic tracking-widest text-white/70">
           {props.position}
           <span className="text-emas/80"> of {props.company}</span>
